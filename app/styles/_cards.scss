@@ -1,0 +1,47 @@
+.card {
+  /* Define the card size */
+  width: 320px;
+  height: 500px;
+  /* Centralize the card */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* Add some padding on every side of the card */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  /* Card Background Color */
+  background-color: #ffffff;
+  /* Additional card styling */
+  border-radius: 15px;
+  box-shadow: #c8d2e1 0px 30px 20px;
+}
+
+.card-figure {
+  /* The figure size will be based on the available space (including the padding) */
+  width: 100%;
+  /* Additional figure styling */
+  border-radius: 10px;
+}
+
+.card-text {
+  /* Add an additional margin to the box above (qr code figure) */
+  margin-top: 5px;
+  /* Center the text */
+  text-align: center;
+}
+
+.card-text h1 {
+  /* Parametarize the heading within the card-text box */
+  font-size: 1.375em;
+  font-weight: bold;
+  color: #1f314f;
+}
+
+.card-text p {
+  /* Parameterize the paragraph within the card-text box */
+  color: #7d889e;
+}

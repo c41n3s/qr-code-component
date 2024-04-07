@@ -1,0 +1,32 @@
+html {
+  display: box;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  /* Specify the font family (based on Figma) */
+  font-family: Outfit;
+  /* Specify the background color so that the content box is visible */
+  background-color: white;
+}
+
+.content {
+  /* Define a content box with a specified width and height */
+  width: 1440px;
+  height: 800px;
+  /* Centralize the content box */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* Specify the background color of the content box */
+  background-color: #d2ddec;
+}
